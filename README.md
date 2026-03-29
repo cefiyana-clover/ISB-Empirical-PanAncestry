@@ -1,5 +1,3 @@
-# ISB-Empirical-PanAncestry
-Empirically-validated computational psychiatry model for MDD using Pan-Ancestry genomics and clinical NCBI data.
 # Bioenergetic Stability Index (ISB): Empirical Validation & Pan-Ancestry Population Genomics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19317017.svg)](https://doi.org/10.5281/zenodo.19317017)
@@ -28,12 +26,15 @@ Unlike synthetic models, this pipeline utilizes parameters extracted from Q1-sca
 git clone [https://github.com/cefiyana-clover/ISB-Empirical-PanAncestry.git](https://github.com/cefiyana-clover/ISB-Empirical-PanAncestry.git)
 cd ISB-Empirical-PanAncestry
 pip install -r requirements.txt
-5. Mathematical Architecture
+
+## 5. Mathematical Architecture
 ​The system evaluates the trajectory of astrocytic ATP (A) and extracellular glutamate (G):
-$$ \frac{dA}{dt} = P_{ATP}(PaCO_2) - C_{basal} - 4 \cdot V(A, G) $$
+​$$ \frac{dA}{dt} = P_{ATP}(PaCO_2) - C_{basal} - 4 \cdot V(A, G) $$
 $$ \frac{dG}{dt} = R_{stress} - V(A, G) - k_{leak} \cdot G $$
-​6. Citation
+
+## ​6. Citation
 ​If you utilize this framework, the code, or the empirical findings, please cite the associated Zenodo publication:
 ​Cefiyana. (2026). Empirical Data and Pan-Ancestry Validation Methodology of the Bioenergetic Stability Index (ISB). Zenodo. DOI: 10.5281/zenodo.19317017
-​7. License
+
+## ​7. License
 ​This project is licensed under the MIT License.
